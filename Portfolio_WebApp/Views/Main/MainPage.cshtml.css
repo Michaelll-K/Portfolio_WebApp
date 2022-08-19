@@ -1,1 +1,12 @@
-﻿
+﻿.image
+{
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    margin-top: 10%;
+}
+img
+{
+    height: 100px;
+    width: 100px;
+}

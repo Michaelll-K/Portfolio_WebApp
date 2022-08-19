@@ -10,4 +10,8 @@
     <Folder Include="Models\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\lib\images\Michał.jpg" />
+  </ItemGroup>
+
 </Project>
