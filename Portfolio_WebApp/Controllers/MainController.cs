@@ -6,7 +6,7 @@ namespace Portfolio_WebApp.Controllers
     {
         public IActionResult MainPage()
         {
-            ViewData["TestoweInfo"] = "Joooo";
+            ViewData["Title"] = "Aplikacja";
             return View();
         }
     }

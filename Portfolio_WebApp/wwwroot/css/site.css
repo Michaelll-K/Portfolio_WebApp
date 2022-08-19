@@ -15,4 +15,10 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color: red;
+}
+
+h1
+{
+    color: green;
 }
