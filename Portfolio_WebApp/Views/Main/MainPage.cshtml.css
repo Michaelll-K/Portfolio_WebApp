@@ -1,16 +1,21 @@
 ﻿.name-div
 {
-    margin-top: 3%;
+    margin-top: 1%;
     font-size: 100px;
-    
+    text-align: center;
 }
 
-.image-div
-{
+.image-div {
     height: 250px;
     width: 250px;
-    background-color: red;
-    margin-top: 5%;
+    background-color: #99C4C8;
+    margin-top: 0px;
+}
+
+svg {
+    color: #EEE4AB;
+    height: 250px;
+    width: 250px;
 }
 
 .input-div
@@ -18,15 +23,15 @@
     width: 400px;
 }
 
-.info-div
-{
+.info-div {
     height: 500px;
     width: 500px;
-    background-color: lightblue;
+    background-color: #E5CB9F;
     position: fixed;
     margin-left: 1670px;
     margin-top: -400px;
     transition: 1s;
+    color: black;
 }
 
     .info-div:hover 
@@ -36,3 +41,10 @@
         margin-left: 1620px;
         margin-top: -450px;
     }
+
+.info
+{
+    margin-top: 33%;
+    margin-right: 45%;
+    font-size: large;
+}

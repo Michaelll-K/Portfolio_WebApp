@@ -6,7 +6,13 @@ namespace Portfolio_WebApp.Controllers
     {
         public IActionResult MainPage()
         {
-            ViewData["Title"] = "Aplikacja";
+            ViewData["Title"] = "Aplication";
+            return View();
+        }
+
+        public IActionResult SingUp()
+        {
+            ViewData["Title"] = "SingUp";
             return View();
         }
     }
